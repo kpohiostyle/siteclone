@@ -19,22 +19,35 @@
 <body>
     <header class="container-fluid sticky-top">
         <nav class="navbar navbar-expand-md navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><i class="fab fa-atlassian fa-2x"></i></a>
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <a class="navbar-brand" href="#"><i class="fab fa-atlassian fa-2x"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-md-end " id="navbarNav">
+                <ul class="navbar-nav">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Seasons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fanfare</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Merch</a>
+                    </li>
+                </ul>
             </div>
         </nav>
-
     </header>
     <main class="container-fluid">
         <div class="row justify-content-around shadow bg-image">
             <div class="col-md-4 py-5">
                 <form class="p-5 bg-second">
-                    <p>subtle heading</p>
+                    <p>Newsletter Sign Up</p>
                     <div class="form-group">
                         <input type="name" class="form-control" id="name" placeholder="Name">
                     </div>
@@ -59,10 +72,10 @@
                         <label class="form-check-label" for="exampleCheck1">by checking the box I agree to the terms and
                             conditions of this website</label>
                     </div>
-                    <button type="submit" class="btn btn-submit">Submit</button>
+                    <button type="submit" class="btn bg-main text-second">Sign Up</button>
                 </form>
             </div>
-            <div class="col-md-6 text-light d-none d-md-block header-text">
+            <div class="col-md-6 text-second visable-md header-text">
                 <h1>Welcome to the Apocolypse</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci incidunt autem itaque
                     facere fuga.</p>
@@ -83,16 +96,18 @@
                 </p>
             </div>
             <div class="col-11 ml-4 col-md-5 shadow card-spill py-3 py-md-3 order-first ">
-                <h5><i class="fas fa-bomb p-3"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-                <h5><i class="fas fa-magic p-3"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-                <h5><i class="fas fa-shield-alt p-3"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-                <h5><i class="fas fa-bomb p-3"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-                <h5><i class="fas fa-bomb p-3"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                <h5><i class="fas fa-bomb fa-2x p-3"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                <h5><i class="fas fa-magic fa-2x p-3"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                <h5><i class="fas fa-shield-alt fa-2x p-3"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h5>
+                <h5><i class="fas fa-hand-peace fa-2x p-3"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h5>
+                <h5><i class="fas fa-ankh fa-2x p-3"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
             </div>
 
         </div>
         <div class="row align-items-center justify-content-around mt-5">
-            <div class="col-md-4 text-center ">
+            <div class="col-md-4 text-center">
                 <img src="./assets/lifeline.jpg" alt="Life Line">
             </div>
             <div class="col-md-5 ml-5">
@@ -108,31 +123,32 @@
                     deleniti vitae rem quo maiores doloremque, quidem, asperiores ipsam eaque ab ut dolores
                     consequuntur? Quisquam, ipsum id!
                 </p>
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn bg-main text-second">More</button>
+                </div>
             </div>
-
         </div>
 
-
-        <div class="row justify-content-around align-items-center mt-5 mb-5 pt-md-3 mx-3">
-            <div class="col-md-3 shadow p-5 order-md-first">
-                <p>"<strong> ipsum, dolor sit amet consectetur adipisicing elit. Mollitia aperiam rem nulla pariatur
-                        odio
-                        veritatis sapiente, corrupti culpa."</strong></p>
+        <div class="row justify-content-around align-items-center my-5 mx-3">
+            <div class="col-md-3 p-5 embed-responsive embed-responsive-16by9 my-3 shadow order-md-first">
+                <!-- <p>"<strong> I don't take myself to seriously, I don't take myself anywhere. I need to get out
+                        more."</strong></p> -->
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oQtHENM_GZU"></iframe>
             </div>
-            <div class="col-md-3 shadow p-5 text-center order-first">
+            <div class="col-md-3 p-5 shadow text-center my-3 order-first">
                 <h3><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                         class="fas fa-star"></i><i class="fas fa-star-half"></i></i></h3>
                 <p>"<strong> ipsum, dolor sit amet consectetur adipisicing elit. Mollitia aperiam rem nulla pariatur
                         odio
-                        veritatis sapiente, corrupti culpa."</strong></p>
+                        veritatis sapiente, corrupti culpa mollitia aperiam rem nulla pariatur."</strong></p>
             </div>
-            <div class="col-md-3 shadow p-5">
-                <p>"<strong> ipsum, dolor sit amet consectetur adipisicing elit. Mollitia aperiam rem nulla pariatur
-                        odio
-                        veritatis sapiente, corrupti culpa."</strong></p>
+            <div class="col-md-3 p-5 embed-responsive embed-responsive-16by9 my-3 shadow">
+                <!-- <p>"<strong> We all had our own part in the war. No one is truly innocent. I am here to win...for
+                        them."</strong></p> -->
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8KWMwl-Qd0E"></iframe>
             </div>
         </div>
-        <div class="row bar-text text-color p-5">
+        <div class="row p-5 bg-main text-second">
             <div class="col">
                 <h2>
                     Lorem ipsum dolor sit.
@@ -159,7 +175,21 @@
                 <i class="fab fa-discord fa-3x"></i>
             </div>
         </div>
+        <div class="row mt-4 text-center">
+            <div class="col">
+                <small>This website is in no way affiliated with Apex Legends&trade; I do not own or copyright any
+                    media.</small>
+            </div>
+        </div>
+
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

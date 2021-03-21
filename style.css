@@ -43,19 +43,12 @@ footer i:hover{
 .card-spill{
     background-color: var(--custom-red);
 }
-.bar-text{
-    background-color: var(--primary);
-}
-.btn-submit{
-    background-color: var(--primary);
-    color: var(--secondary)
-}
-.btn-submit:hover{
+
+.btn:hover{
     background-color: var(--custom-red);
     color: var(--secondary);
 }
 .header-text{
-    padding-left: 10rem;
     padding-top: 5rem;
 }
 
@@ -81,8 +74,15 @@ footer i:hover{
 /* end custom classes */
 
 /* Utility classes */
-.text-color{
+.text-main{
+    color: var(--primary);
+}
+.text-second{
     color: var(--secondary);
+}
+
+.bg-main{
+    background-color: var(--primary);
 }
 
 .bg-second{
